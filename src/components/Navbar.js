@@ -3,9 +3,8 @@ import Button from 'react-bootstrap/Button';
 
 function Navbar () {
     return (
-        <nav class="nav">
-            <h4>Home</h4>
-            <h4>About Us</h4>
+        <nav className="nav">
+            <h3>This is my First Navbar wtih React!</h3>
         </nav>
     )
 }

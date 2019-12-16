@@ -1,5 +1,6 @@
 import React from "react"
 
+
 function MyInfo() {
     return (
         <div>
@@ -10,6 +11,17 @@ function MyInfo() {
                 <li>Greece</li>
                 <li>Iceland</li>
             </ul>
+            <input type="checkbox" />
+            <span>Item 1</span>
+            <br/>
+            <input type="checkbox" />
+            <span>Item 2</span>
+            <br/>
+            <input type="checkbox" />
+            <span>Item 3</span>
+            <br/>
+            <input type="checkbox" />
+            <span>Item 4</span>
         </div>
     )
 }
