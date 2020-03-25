@@ -2,9 +2,11 @@ import React from "react"
 
 
 function MyInfo() {
+    const firstName = "Jason"
+    const lastName = "Kempel"
     return (
         <div>
-            <h1>Jason Kempel</h1>
+            <h1>Hello {firstName + " " + lastName}!</h1>
             <p>I'm new to React, and I'm excited to learn more!</p>
             <ul>
                 <li>Italy</li>
